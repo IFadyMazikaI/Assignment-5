@@ -1,0 +1,1132 @@
+html {
+    direction: rtl;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-right: 18%;
+    color: #000;
+    background-color: #fff;
+}
+
+div img {
+    width: 100%;
+}
+
+h1,
+h3,
+b,
+h2,
+p,
+h4 {
+    margin: 0;
+}
+
+b {
+    color: #6a7282;
+}
+
+h1 {
+    color: #111827;
+    font-size: 50px;
+}
+
+.fa-coins {
+    background-color: blue;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 30;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.d-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.d-flex {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.dashboard-header {
+    margin: 15px 0 0;
+    width: fit-content;
+    grid-template-columns: auto auto auto;
+}
+
+li {
+    list-style: none;
+    margin: 25px 0;
+    padding-block: 10px;
+}
+
+.hover-color:hover {
+    background-color: #ffffff;
+}
+
+.icon-blue {
+    color: oklch(54.6% .245 262.881);
+    background-color: oklch(93.2% .032 255.585);
+    font-size: 18px;
+    padding: 15px;
+    margin-block: auto;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.icon-gray {
+    color: oklch(0.723 0.219 149.579);
+    background-color: oklch(96.2% .044 156.743);
+    font-size: 18px;
+    padding: 15px;
+    margin-block: auto;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.icon-orange {
+    background-color: #FFEDD4;
+    color: #F54A00;
+    font-size: 18px;
+    padding: 15px;
+    margin-block: auto;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+
+.icon-netflix {
+    background-color: #E0E7FF;
+    color: #4F39F6;
+    font-size: 18px;
+    padding: 15px;
+    margin-block: auto;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.clolr-netflix {
+    background-color: #E0E7FF;
+    color: #4F39F6;
+    padding-block: 5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.clolr-gray {
+    background-color: #DBFCE7;
+    color: #388C5E;
+    padding-block: 5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.clolr-gray-2 {
+    color: #32f188;
+}
+
+.clolr-orange {
+    background-color: #FFEDD4;
+    color: #9F2D00;
+    padding-block: 5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.clolr-blue {
+    color: oklch(54.6% .245 262.881);
+    background-color: oklch(93.2% .032 255.585);
+    padding-block: 5px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.clolr-blue-2 {
+    color: oklch(54.6% .245 262.881);
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-top: 1px solid oklch(93.2% .032 255.585);
+    padding-top: 10px;
+    padding-inline: 20px;
+}
+
+.m-a-r {
+    margin-block: auto;
+    text-align: right;
+}
+
+
+/* ************** Sidebar ******************** */
+.Sidebar {
+    width: 15%;
+    padding: 10px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+    background-color: #eeeeee;
+}
+
+.sidebar-logo {
+    margin-top: 20px;
+    padding-block: 20px;
+    background-color: oklch(97% .014 254.604);
+    color: blue;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.fa-house {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+ul {
+    color: #6a7282;
+}
+
+.quick-actions i {
+    padding: 10px;
+    margin-left: 4px;
+    border-radius: 10px;
+}
+
+.fa-paper-plane {
+    background-color: #eaf3ff;
+    color: #155dfc;
+}
+
+.fa-plus {
+    background-color: #e6faee;
+    color: chartreuse;
+}
+
+.fa-receipt {
+    background-color: #f7edff;
+    color: #9a0ffd;
+}
+
+.fa-chart-line {
+    background-color: #fff4e5;
+    color: orange;
+}
+
+/* ******************** Header **********************/
+.header {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-block: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    grid-template-columns: auto auto;
+}
+
+.connected {
+    background-color: chartreuse;
+    color: green;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+}
+
+.user-name {
+    justify-self: end;
+}
+
+.imge img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user-profile {
+    border: 2px solid #eaf3ff;
+    grid-template-columns: auto auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #6a7282;
+
+}
+
+.icons .fa-solid {
+    font-size: 22px;
+    color: white;
+    background-color: #dddddd;
+    margin-left: 10px;
+    padding: 8px;
+    border: 2px solid #eaf3ff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.fa-bell {
+    position: relative;
+}
+
+.fa-bell span {
+    position: absolute;
+    font-size: 15px;
+    background-color: red;
+    padding: 2px 6px;
+    border-radius: 50%;
+    top: -7px;
+    right: -7px;
+}
+
+/************* Summary Cards **************/
+
+.Summary-Cards {
+    margin-top: 50px;
+    grid-template-columns: auto auto auto;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 3px solid #eaf3ff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding-right: 30px;
+}
+
+.card h2 {
+    font-size: 40px;
+    color: #111827;
+    margin-block: 10px;
+}
+
+.card p {
+    color: red;
+}
+
+.card-income p {
+    color: green;
+}
+
+/************ dashboard-content *************/
+.dashboard-content {
+    grid-template-columns: 35% 65%;
+    margin-top: 50px;
+}
+
+.Recent-activities {
+    margin-top: 20px;
+    border: 2px solid #dddddd;
+    border-radius: 15px;
+}
+
+.Recent-activities>h3 {
+    margin-block: 20px;
+    margin-right: 20px;
+}
+
+.Create-account {
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+    background-color: oklch(97% .014 254.604);
+    border: 4px solid #dddddd;
+    border-radius: 15px;
+    box-shadow: -4px 0 oklch(62.3% .214 259.815);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.activity-title {
+    margin-bottom: 20px;
+}
+
+
+
+.Create-account span {
+    margin-right: 40px;
+    color: oklch(54.6% .245 262.881);
+}
+
+/****************dashboard-content***********************/
+
+.Add-card {
+    margin-top: 40px;
+    width: 80%;
+    margin: auto;
+    background-color: oklch(97% .014 254.604);
+    border: 4px solid #dddddd;
+    border-radius: 15px;
+    box-shadow: -4px 0 oklch(0.723 0.219 149.579);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.add-card-title {
+    margin-bottom: 20px;
+}
+
+.add-card-icon {
+    margin-bottom: 40px;
+    color: oklch(0.723 0.219 149.579);
+    background-color: oklch(96.2% .044 156.743);
+    padding-block: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.Add-card span {
+    color: oklch(54.6% .245 262.881);
+    margin-right: 40px;
+}
+
+.Monthly-bills {
+    border: 2px solid #dddddd;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.Monthly-bills>div {
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.Monthly-bills .transactions-grid b {
+    margin-right: 25%;
+}
+
+.electricity {
+    text-align: center;
+    font-size: 18px;
+    background-color: #dddddd;
+    padding: 8px;
+
+}
+
+.span-orange {
+    color: #F54A00;
+}
+
+.electricity span i {
+    display: block;
+    color: #D08700;
+    background-color: #dacb28;
+    width: 50px;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 20%;
+}
+
+.electricity span {
+    color: #FEF9C2;
+}
+
+.internet {
+    text-align: center;
+    font-size: 18px;
+    background-color: #dddddd;
+    padding: 8px;
+
+}
+
+.internet span i {
+    display: block;
+    color: #155DFC;
+    background-color: #759fd6;
+    width: 50px;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 20%;
+}
+
+.Netflix {
+    text-align: center;
+    font-size: 18px;
+    background-color: #dddddd;
+    padding: 8px;
+
+}
+
+.Netflix span i {
+    display: block;
+    color: #e02323;
+    background-color: #ebb3b3;
+    width: 50px;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 20%;
+}
+
+.phone {
+    text-align: center;
+    font-size: 18px;
+    background-color: #dddddd;
+    padding: 8px;
+
+}
+
+.phone span i {
+    display: block;
+    color: green;
+    background-color: #41cf75;
+    width: 50px;
+    margin: auto;
+    padding: 10px 5px;
+    border-radius: 20%;
+}
+
+
+/************* الجزء الشمال ***********************/
+.Left-Section {
+    border: 2px solid #dddddd;
+}
+
+.transactions-grid {
+    padding-inline: 20px;
+    margin-block: 25px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.transactions-grid b {
+    margin-right: 70%;
+}
+
+.Row-in-table {
+    grid-template-columns: 2fr 1.5fr 1.5fr 1fr 1fr;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+    text-align: center;
+    padding: 10px 15px;
+    margin-block: 15px;
+
+}
+
+.transactions-grid-container i {
+    margin: 0;
+    padding: 0;
+}
+
+/* ***************************** ****************************88 */
+
+.nn {
+    grid-template-columns: auto 400px auto;
+    align-items: start;
+}
+
+.Overview-the-Budget {
+    border: 3px solid #dddddd;
+}
+
+.Overview-the-Budget .card {
+    border: 3px solid #eeeeee;
+    margin-block: 7px;
+}
+
+.porgress-bar {
+    background-color: #dddddd;
+    border-radius: 20px;
+    height: 15px;
+    width: 100%;
+    display: block;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.porgress-fill {
+    height: 15px;
+    background-color: #155DFC;
+    width: 82.5%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.porgress-percent {
+    margin-right: 60%;
+}
+
+.budget-remaaining {
+    margin-right: 75%;
+    color: #6a7282;
+}
+
+.budget-remaaining h3 {
+    color: green;
+}
+
+.budget-title {
+    color: #155dfc;
+}
+
+.budget-title h3 {
+    color: blue;
+    font-size: 25px;
+}
+
+.budget-title .icon-netflix {
+    background-color: #FFEDD4;
+    color: #F54A00;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.entertainment .budget-title h3 {
+    color: #000;
+}
+
+.entertainment .budget-title b {
+    font-size: 15px;
+}
+
+.entertainment .porgress-fill {
+    height: 15px;
+    background-color: #F54A00;
+    width: 50%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.entertainment .porgress-percent {
+    width: 30%;
+    margin-right: 70%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #41cf75;
+    padding-inline: 5px;
+}
+
+.invoice .budget-title .icon-netflix {
+    background-color: #FEE2E2;
+    color: #E7000B;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.invoice .budget-title h3 {
+    color: #000;
+}
+
+.invoice .budget-title b {
+    font-size: 15px;
+}
+
+.invoice .porgress-fill {
+    height: 15px;
+    background-color: #E7000B;
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.invoice .porgress-percent {
+    width: 30%;
+    margin-right: 70%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #FEE2E2;
+    padding: 5px;
+}
+
+
+
+.personal-care .budget-title .icon-netflix {
+    background-color: #FEE2E2;
+    color: #E60076;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.personal-care .budget-title h3 {
+    color: #000;
+}
+
+.personal-care .budget-title b {
+    font-size: 15px;
+}
+
+.personal-care .porgress-fill {
+    height: 15px;
+    background-color: #E60076;
+    width: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.personal-care .porgress-percent {
+    width: 30%;
+    margin-right: 70%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #FEE2E2;
+    padding: 5px;
+}
+
+
+
+.household-supplies .budget-title .icon-netflix {
+    background-color: #DCFCE7;
+    color: #32f188;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.household-supplies .budget-title h3 {
+    color: #000;
+}
+
+.household-supplies .budget-title b {
+    font-size: 15px;
+}
+
+.household-supplies .porgress-fill {
+    height: 15px;
+    background-color: #32f188;
+    width: 86%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.household-supplies .porgress-percent {
+    width: 30%;
+    margin-right: 70%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background-color: #FEE2E2;
+    padding: 5px;
+}
+
+.income-vs-expenses-card {
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+
+.Income-vs-Expenses {
+    border: 3px solid #dddddd;
+    padding-bottom: 15px;
+    color: #649ECE;
+    background-color: #eeeeee;
+}
+
+.Income-vs-Expenses h3 {
+    color: #000;
+}
+
+.vs-Expenses {
+    justify-content: center;
+}
+
+.gread-w {
+    width: 10px;
+    height: 10px;
+    background-color: #32f188;
+}
+
+.ryd-w {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.gread-h {
+    width: 20px;
+    height: 120px;
+    background-color: #32f188;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.ryd-h {
+    width: 20px;
+    height: 60px;
+    background-color: red;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.bb {
+    align-items: flex-end;
+    padding: 0 7px 10px 15px;
+    gap: 5px;
+}
+
+.Account-summary {
+    border: 3px solid #dddddd;
+    padding-bottom: 15px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+}
+
+.Account-summary .Create-account .icon-blue {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 0;
+}
+
+.Account-summary .Create-account {
+    box-shadow: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.Account-summary .Create-account span {
+    font-size: 20px;
+    color: #000;
+}
+
+.Account-summary .Create-account .icon-gray {
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 0;
+}
+
+.cash {
+    margin-left: 50px;
+    width: 30px;
+}
+
+.icon-credit {
+    background-color: #F3E8FF;
+    color: #9810FA;
+    width: 25px;
+    height: 25px;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 0;
+}
+
+.credit {
+    width: 85%;
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.front {
+    background-color: oklch(57.7% .245 27.325);
+    z-index: 3;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.back {
+    background-color: #0E1523;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.credit:hover {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.credit-hadir {
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding-inline: 20px;
+}
+
+.logo {
+    width: 50px;
+    height: 25px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-p {
+    width: 40px;
+    height: 30px;
+    background-color: oklch(63.7% .237 25.331);
+    border-radius: 5px;
+}
+
+.logo-a {
+    width: 60%;
+    height: 20px;
+    margin: auto;
+    margin-top: 5px;
+    background-color: oklch(93.6% .032 17.717);
+    border-radius: 5px;
+}
+
+.card-number {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
+.card-footer span {
+    display: block;
+}
+
+.card-footer {
+    margin-right: 30px;
+    color: white;
+}
+
+.expiry {
+    margin-right: 50px;
+}
+
+.back-hadir {
+    width: 85%;
+    margin: auto;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #151515, #272727);
+    margin-bottom: 10px;
+}
+
+.back-body {
+    width: 85%;
+    margin: auto;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 10px;
+    grid-template-rows: 70% 30%;
+}
+
+.number {
+    margin-right: 60%;
+    margin-top: 10px;
+}
+
+.back-body div {
+    width: 160%;
+    height: 15px;
+    margin-top: 10px;
+    background-color: #dddddd;
+}
+
+.number-2 {
+    width: 50px;
+    height: 30px;
+    direction: ltr;
+    background-color: white;
+    margin-right: 70%;
+    text-align: center;
+}
+
+.Means-of-Payment {
+    border: 3px solid #dddddd;
+    padding-bottom: 15px;
+    background-color: #eeeeee;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .Sidebar {
+        display: none;
+    }
+
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
+    .dashboard-header,
+    .Summary-Cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .dashboard-content {
+        grid-template-columns: 1fr;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .Create-account,
+    .Add-card {
+        width: 95%;
+    }
+
+    .nn {
+        grid-template-columns: 1fr;
+    }
+
+    .icons .fa-solid {
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .Row-in-table {
+        grid-template-columns: 1fr 1fr; 
+        padding: 10px 5px;
+        gap: 10px;
+        text-align: right;
+    }
+
+    .transactions-grid-container .d-flex .icon-blue,
+    .transactions-grid-container .d-flex .icon-gray {
+        display: none;
+    }
+
+    .Recent-activities>h3,
+    .Monthly-bills>h3 {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .Sidebar {
+        width: 20%;
+        padding: 5px;
+
+        
+    }
+
+    .container {
+        width: 78%;
+        margin: auto;
+        margin-right: 22%;
+    }
+    .Summary-Cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    .Summary-Cards .card:last-child {
+        grid-column: span 2;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .dashboard-content {
+        grid-template-columns: 1fr;
+    }
+
+    .nn {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .Row-in-table {
+        grid-template-columns: 1.5fr 1fr 1fr 0.8fr 0.8fr;
+        padding: 10px 5px;
+    }
+}
